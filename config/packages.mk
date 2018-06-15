@@ -2,7 +2,7 @@
 PRODUCT_PACKAGES += \
     Turbo
 
-# Overlays
+# Accents
 PRODUCT_PACKAGES += \
     AmberAccent \
     BlackAccent \
@@ -12,8 +12,6 @@ PRODUCT_PACKAGES += \
     CyanAccent \
     DeepOrangeAccent \
     DeepPurpleAccent \
-    DuiDark \
-    GBoardDark \
     GreenAccent \
     GreyAccent \
     IndigoAccent \
@@ -24,11 +22,22 @@ PRODUCT_PACKAGES += \
     PinkAccent \
     PurpleAccent \
     RedAccent \
-    SettingsDark \
-    SystemDark \
     TealAccent \
     YellowAccent \
     WhiteAccent
+
+# Analog clocks
+PRODUCT_PACKAGES += \
+    AnalogDeadpool \
+    AnalogDeepNight \
+    AnalogDu
+
+# Dark theme
+PRODUCT_PACKAGES += \
+    DuiDark \
+    GBoardDark \
+    SettingsDark \
+    SystemDark
 
 # Fonts
 PRODUCT_PACKAGES += \
